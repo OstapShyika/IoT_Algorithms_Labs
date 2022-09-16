@@ -7,9 +7,9 @@ enum Color {
 };
 
 struct NodeStruct {
-    NodeStruct *parent;
-    NodeStruct *left;
-    NodeStruct *right;
+    NodeStruct* parent;
+    NodeStruct* left;
+    NodeStruct* right;
     int val;
     Color color;
 };
